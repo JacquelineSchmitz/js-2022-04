@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <meta charset="UTF-8">
     <title>Einkaufsliste</title>
 
 </head>
 
+
 <body>
+
 
 <header>
 
     <h1>Einkaufsliste</h1>
 
+
     <nav>
-        <input text> Artikel hinzufügen +
+        <input type="search" placeholder="Artikel hinzufügen ">
+        <button class="material-icons"
+                style="vertical-align: bottom">add_circle</button>
+
     </nav>
 
     <hr/>
 </header>
 <main>
+
     <section>
-        <h2>Einkaufen</h2>
-        Obst & Gemüse<br/>
-        <input type="checkbox" <dd>Brokkoli<br/> </dd>
-        Getreideprodukte<br/>
-        <input type="checkbox" <dd>Reis<br/></dd>
-        Milchprodukte<br/>
-        <input type="checkbox" <dd>Streukäse<br/></dd>
+         <h2>Einkaufen<i class="material-icons">expand_less</i></h2>
+        Obst & Gemüse<i class="material-icons">expand_less</i><br/>
+
+        <dd><input type="checkbox"/> Brokkoli </dd>
+        Getreideprodukte<i class="material-icons">expand_less</i><br/>
+        <dd><input type="checkbox"/> Reis </dd>
+        Milchprodukte<i class="material-icons">expand_less</i><br/>
+        <dd><input type="checkbox"/>Streukäse<br/></dd>
     </section>
     <hr>
 
     <section>
-        <h2>Erledigt</h2>
-        Hülsenfrüchte<br/>
-        <input type="checkbox" <dd><s>Tofu</s></dd>
+        <h2>Erledigt<i class="material-icons">expand_less</i></h2>
+          Hülsenfrüchte<i class="material-icons">expand_less</i><br/>
+        <dd><input type="checkbox"/><s>Tofu</s></dd>
         <hr>
     </section>
 
@@ -42,9 +53,13 @@
 <nav>
     <footer>
         <div>
-                <button>Gruppen</button>
-                <button>Sortieren</button>
-                <button>Einstellungen</button
+                <button>
+                    <span class="material-icons">bookmark_add</span>Gruppen</button>
+                <button>
+                    <span class="material-icons">sort</span>Sortieren</button>
+                <button>
+                    <span class="material-icons">settings</span>Einstellungen</button>
+
         </div>
     </footer>
 </nav>
